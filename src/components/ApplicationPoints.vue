@@ -1,5 +1,5 @@
 <template>
-  <div class="app-wrapper">
+  <div id="wrap" class="app-wrapper">
     <h2>Как принять участие?</h2>
     <div class="app-wrapper-points">
       <div class="app-wrapper-points__card">

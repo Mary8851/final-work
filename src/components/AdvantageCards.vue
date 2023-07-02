@@ -46,7 +46,7 @@ export default {
     gap: 28px;
     margin-top: 40px;
     &__block {
-      width: 293px;
+      width: 380px;
       height: 441px;
       border-radius: 16px;
       text-align: center;
@@ -108,21 +108,28 @@ export default {
     }
   }
 }
+@media (max-width: 768px) {
+  .cards-wrap__block {
+    width: 350px;
+    height: 360;
+    padding: 24px 26px 10px 26px;
+    p {
+      opacity: 1;
+      margin-top: 30px;
+    }
+  }
+}
 @media (max-width: 576px) {
   .cards {
-    text-align: center;
-    padding-bottom: 80px;
     h2 {
       font-size: 30px;
       font-weight: 700;
       line-height: 36px;
     }
     &-wrap {
-      justify-content: center;
-      flex-wrap: wrap;
       &__block {
-        width: 100%;
-        padding: 24px 26px 40px 26px;
+        width: 342px;
+        height: 362px;
         p {
           opacity: 1;
         }

@@ -31,10 +31,9 @@ export default {
   width: 100%;
   margin: auto;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  padding: 32px 0 36px 0;
+  padding: 74px 0 36px 0;
   &-text {
     max-width: 340px;
     width: 100%;
@@ -70,16 +69,16 @@ export default {
     }
   }
   &-banner {
-    width: 648px;
+    max-width: 648px;
+    width: 100%;
     height: 429px;
     img {
       width: 100%;
     }
   }
 }
-@media (max-width: 1200px) {
+@media (max-width: 1024px) {
   .main {
-    justify-content: center;
     &-text {
       margin-bottom: 62px;
       text-align: center;
@@ -90,6 +89,12 @@ export default {
         text-align: center;
       }
     }
+  }
+}
+@media (max-width: 992px) {
+  .main {
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
 @media (max-width: 576px) {

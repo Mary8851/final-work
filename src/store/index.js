@@ -34,6 +34,4 @@ export default createStore({
       state.menuState = !state.menuState;
     },
   },
-  actions: {},
-  modules: {},
 });
