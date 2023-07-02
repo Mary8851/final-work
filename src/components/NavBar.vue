@@ -3,7 +3,7 @@
     <div class="menu-logo">
       <img src="../assets/img/logo-beeline.svg" alt="logo" class="menu-lg" />
     </div>
-    <div class="menu" :class="{ active: menuState }" @click="closeMenu">
+    <div class="menu" :class="{ active: menuState }">
       <ul>
         <li><a href="#card">Какие плюсы?</a></li>
         <li><a href="#wrap">Что потребуется от тебя</a></li>
